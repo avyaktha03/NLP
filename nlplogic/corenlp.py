@@ -13,7 +13,6 @@ def get_text_blob(text):
     blob = TextBlob(text)
     return blob
 
-
 def get_phrases(name):
     text = summarize_wiki(name)
     blob = get_text_blob(text)
