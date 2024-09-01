@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt_tab')
 from nlplogic.corenlp import get_phrases
 
 def test_get_phrase():
